@@ -1,0 +1,25 @@
+<script type="text/javascript" src="theme/js/jquery.js"></script>
+<script type="text/javascript" src="theme/js/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="theme/js/jquery1102.js"></script>
+<script type="text/javascript" src="theme/js/script.js"></script>
+
+<script type='text/javascript' src='theme/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
+<script type="text/javascript" src="theme/js/jquery192.js"></script>
+<script type="text/javascript" src="theme/js/jquery.appear.js"></script>
+<script type="text/javascript" src="theme/js/theme-plugins.js"></script>
+<script type="text/javascript" src="theme/js/view.min.js"></script>
+<script type="text/javascript" src="theme/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="theme/js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="theme/js/jquery.stellar.js"></script>
+<script type="text/javascript" src="theme/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="theme/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="theme/js/navigation.js"></script>
+<script type="text/javascript" src="theme/js/skip-link-focus-fix.js"></script>
+<script type="text/javascript" src="theme/js/jquery.scrollSections.js"></script>
+<script type="text/javascript" src="theme/js/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="theme/js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="theme/js/jquery.nav.js"></script>
+<script type="text/javascript" src="theme/js/classie.js"></script>
+<script type="text/javascript" src="theme/js/sidebarEffects.js"></script>
+<script type="text/javascript" src="theme/js/theme_script.js"></script>

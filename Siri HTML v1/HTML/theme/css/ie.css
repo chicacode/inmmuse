@@ -1,0 +1,1081 @@
+/*
+Styles for older IE versions (previous to IE9).
+*/
+
+.po-navbar li a {
+	color:#999;
+}
+
+.client-image .client-container .client-details {
+	background:none;
+}
+
+.btn-icon,
+.btn-icon-left
+{
+	display:none;
+}
+
+
+
+.po-column img,
+.column-content img
+{ 
+	width: auto 
+}
+
+.slider-btn
+{
+	width:40%;
+}
+
+.po-carousel-ie li
+{
+	width: auto 
+}
+
+.po-carouseleds .bx-wrapper .bx-controls-direction{			
+	margin-top:-169px;
+}
+
+.horiz-nav-bottom .menu li, 
+.horiz-nav-bottom .menu li a 
+{
+	padding:28px 10px 10px;
+}
+
+.po-portfolio-slider-profile .bx-wrapper .bx-prev {
+	position: absolute;
+	z-index:999999999999;
+	left:0%;
+	width: 50%;
+	height:270px;
+	margin-top: 0px;
+	background: url(../images/next-light-ie.png) no-repeat 4% center !important;
+	
+}
+
+.po-portfolio-slider-profile .bx-wrapper .bx-next {
+	position: absolute;
+	width: 50%;
+	height:270px;
+	margin-top: 0px;
+	right:0%;
+	background: url(../images/prev-light-ie.png) 96% center no-repeat !important;
+}
+
+.po-portfolio-slider-profile .bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	margin-top: -480px;
+	outline: 0;
+	text-indent: -9999px;
+	z-index:99999;
+}
+
+.po-portfolio-slider2 .bx-wrapper .bx-prev {
+	position: absolute;
+	z-index:999999999999;
+	left:0%;
+	width: 50%;
+	height:100% !important;
+	margin-top: 0px;
+	background: url(../images/next-light-ie.png) no-repeat 10% center !important;
+	cursor:pointer;
+	
+}
+
+.po-portfolio-slider2 .bx-wrapper .bx-next {
+	position: absolute;
+	width: 50%;
+	height:100% !important;
+	right:0%;
+	background: url(../images/prev-light-ie.png) 90% center no-repeat !important;
+	cursor:pointer;
+}
+
+.po-portfolio-slider2 .bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	margin-top: -45% !important;
+	outline: 0;
+	text-indent: -9999px;
+	z-index:99999;
+}
+
+.background-greyscale {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.st-menu
+{
+	position:fixed;
+	z-index:0;
+	visibility:visible !important;
+}
+
+.menu-close-blog
+{
+	width:22px; 
+	height:22px; 
+	background:url(../images/view-close-ie.png) !important; 
+	background-size:22px 22px;
+	cursor:pointer; 
+	position:absolute;
+	right:69px;
+	margin-top:9px;
+	display:none;
+}
+
+.st-menu-inner
+{
+	width:500px;
+	padding:35px 35px 70px !important;
+}
+
+.st-menu.st-menu-ie
+{
+	width:30%;
+	left:-30%;	
+}
+
+.menu-greyscale
+{
+	background:#000; 
+	width:100%; 
+	height:100%; 
+	left:0; 
+	top:0;
+	position:fixed; 
+	z-index:0; 
+	opacity:0.7;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.button-menu
+{
+	display:block;
+}
+
+.menu-close
+{
+	background:url(../images/view-close-ie.png); 
+}
+
+img.fullbackground{
+    position:absolute;
+    z-index:-2;
+    top:0;
+    left:0;
+    width:100%; /* alternative: right:0; */
+    height:100%; /* alternative: bottom:0; */
+}
+
+.slide-content-ie
+{
+	width:100%; 
+	position:absolute; 
+	z-index:99; 
+	height:100%;
+}
+
+.section-slides,
+.section-slides-port
+{
+	position:relative !important;
+}
+
+img.fullbackground-slide{
+    position:absolute;
+    z-index:-0;
+    top:0;
+    left:0;
+    width:100%; /* alternative: right:0; */
+    height:100%; /* alternative: bottom:0; */
+}
+
+img.fullbackground-slide2{
+    position:absolute;
+    z-index:-0;
+    top:0;
+    left:0;
+    width:100%; /* alternative: right:0; */
+    height:auto; /* alternative: bottom:0; */
+}
+
+img.fullbackground-menu{
+    position:absolute;
+    z-index:-2;
+    top:0;
+    left:0;
+    height:100%; /* alternative: bottom:0; */
+}
+
+.po-portfolio-slider-profile
+{
+	background:#000;
+}
+
+.menu-nav-inner .sub-menu li a
+{
+	color:#ccc;
+	opacity:0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+}
+
+.menu-nav-inner .sub-menu li a:hover
+{
+	color:#eee;
+	opacity:0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+
+}
+
+.menu-nav-inner .menu li a
+{
+	color:#aaa;
+	opacity:0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.menu-nav-inner .menu li a:hover
+{
+	color:#fff;
+	opacity:0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.menu-nav-inner .menu li.current_page_item a
+{
+	color:#fff;
+	opacity:0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+.portfolio-item-effect-2 figure.effect-chico:hover .port-img,
+.portfolio-item-effect-3 figure.effect-chico:hover .port-img
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+figure.effect-chico h2 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+figure.effect-chico:hover h2 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.section-bg-ie
+{
+	position:absolute; 
+	z-index:0; 
+	min-width:100%; 
+	min-height:100%; 
+	left:0; 
+	top:-20px; 
+	bottom:0;	
+}
+
+
+.po-testimonials .bx-wrapper .bx-prev {
+	position: absolute;
+	z-index:999999999999;
+	left:0%;
+	width: 50%;
+	height:270px;
+	margin-top: 0px;
+	background: url(../images/next-light-ie.png) no-repeat 4% center !important;
+	background-size: 30px 80px;
+	
+}
+
+.po-testimonials .bx-wrapper .bx-next {
+	position: absolute;
+	width: 50%;
+	height:270px;
+	margin-top: 0px;
+	right:0%;
+	background: url(../images/prev-light-ie.png) 96% center no-repeat !important;
+	background-size: 30px 80px;
+}
+
+.po-testimonials .bx-wrapper .bx-controls-direction a {
+	position: absolute;
+	margin-top: -100px;
+	outline: 0;
+	text-indent: -9999px;
+	z-index:99999;
+}
+
+.po-testimonials .bx-wrapper .bx-pager.bx-default-pager a {
+	background:#666;
+}
+
+.team-item
+{
+	padding:0 !important; 
+	margin:0 !important;
+}
+
+.portfolio-item-effect-4 figure .port-img {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-4 figure h2 {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.portfolio-item-effect-4 figure.effect-chico:hover .port-img {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+
+figure.effect-chico:hover figcaption {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+.portfolio-item-effect .cs-style-3 figure {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.portfolio-item-effect .cs-style-3:hover figure {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.portfolio-item-effect figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+@media(max-width:767px){
+	.one-nav-bg-ie
+	{
+		position:fixed; 
+		width:100%; 
+		z-index:9999999999999999999999; 
+		height:76px;
+		background:#000;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+		display:block;
+	}
+}
+
+@media(min-width:768px){
+	.one-nav-bg-ie
+	{
+		position:fixed; 
+		width:100%; 
+		z-index:9999999999999999999999; 
+		height:80px;
+		background:#000;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+		display:block;
+	}
+}
+
+.po-menu-button-close
+{
+	background:url(../images/menu-lines-close-ie.png) no-repeat 11px 9px;
+}
+
+.po-menu-button
+{
+	background:url(../images/menu-lines-ie.png) no-repeat 11px 9px;
+}
+
+.po-filter-portfolio
+
+{
+	background:url(../images/filter-arrow-left-white-small-ie.png) no-repeat 11px 9px;
+}
+
+.icon-bar
+{
+	
+	background:#fff;
+
+}
+
+.icon-bar.dark
+{
+	
+	background:#000;
+
+}
+
+.menu-close-dark
+{ 
+	background:url(../images/view-close-dark-ie.png);
+	margin-top:7px;
+}
+
+.po-footer-button
+{
+	background:url(../images/footer-down-ie.png) no-repeat 11px 10px #000;
+}
+
+
+.white-content .slider-subtitle span,
+.white-content .subtitle-port span,
+.white-content .subtitle span
+{
+	background:url(../images/cat-sep-ie.png) no-repeat;
+}
+
+.light-content .slider-subtitle span,
+.light-content .subtitle-port span,
+.light-content .subtitle span
+{
+	background:url(../images/cat-sep-light-ie.png) no-repeat;
+}
+
+.black-content .slider-subtitle span,
+.black-content .subtitle-port span,
+.black-content .subtitle span
+{
+	background:url(../images/cat-sep-dark-ie.png) no-repeat;
+}
+
+.white-content .next-portfolio-item
+{
+	background:url(../images/arrow-large-left-ie.png) no-repeat;
+}
+
+.white-content .prev-portfolio-item
+{
+	background:url(../images/arrow-large-right-ie.png) no-repeat;
+}
+
+.light-content .next-portfolio-item
+{
+	background:url(../images/arrow-large-left-light-ie.png) no-repeat;
+}
+
+.light-content .prev-portfolio-item
+{
+	background:url(../images/arrow-large-right-light-ie.png) no-repeat;
+}
+
+.black-content .next-portfolio-item
+{
+	background:url(../images/arrow-large-left-black-ie.png) no-repeat;
+}
+
+.black-content .prev-portfolio-item
+{
+	background:url(../images/arrow-large-right-black-ie.png) no-repeat;
+}
+
+.prev-portfolio-item,
+.next-portfolio-item
+{
+	color:transparent;
+}
+
+.video-shade-portfolio-image
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+.video-shade
+{
+	position:absolute; 
+	z-index:9999999999999999999999999999; 
+	width:100%; 
+	height:100%;
+	background: url(../images/close-b-ie.png) no-repeat;
+	background-position: 30px 30px;
+	display:none;
+	cursor:pointer;
+}
+
+.section-details
+{
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.st-menu-ie
+{
+	width:30%;
+	z-index:99999999999999999999999999999999999999999999999999999999; 
+	left:-30%;
+	
+}
+
+.close-ie
+{
+	width:30px;
+	height:30px;
+	background: url(../images/close-dark-ie.png) no-repeat;
+	position:absolute;
+	top:30px;
+	right:30px;
+	cursor:pointer;
+	
+}
+
+.share-port-ie
+{
+	position:absolute; 
+	right:50px;
+	bottom:0px;
+}
+
+
+.attachment-ie-thumb
+{
+	
+	width:100% !important;
+	height:auto !important;
+}
+
+
+.pagination-arrow-next
+{
+	background:url(../images/filter-arrow-right-grey-small-ie.png) no-repeat 12px 5px;
+}
+
+.pagination li a:hover .pagination-arrow-next
+{
+	background:url(../images/filter-arrow-right-white-small-ie.png) no-repeat 12px 5px;
+
+}
+
+.pagination-arrow-prev
+{
+	background:url(../images/filter-arrow-left-grey-small-ie.png) no-repeat 12px 5px;
+}
+
+.pagination li a:hover .pagination-arrow-prev
+{
+	background:url(../images/filter-arrow-left-white-small-ie.png) no-repeat 12px 5px;
+
+}
+
+.po-background-video
+{
+	display:none;
+}
+
+/* Common style */
+
+.portfolio-item-effect-2 .figure-ie {
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin: 0 0 0 0 !important;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	cursor: url(images/view-open.png) 35 35, default;
+	@include transition-fade(0.2s);
+	
+}
+
+.portfolio-item-effect-2 .figure-ie .port-img {
+
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+@media(max-width:767px){
+	.portfolio-item-effect-2 .figure-ie .figcaption-ie {	
+		display:none;
+	}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+	.portfolio-item-effect-2 .figure-ie .figcaption-ie {	
+		display:none;
+	}
+}
+
+
+.portfolio-item-effect-2 .figure-ie .figcaption-ie {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.portfolio-item-effect-2 .figure-ie .figcaption-ie::before,
+.portfolio-item-effect-2 .figure-ie .figcaption-ie::after {
+	pointer-events: none;
+}
+
+.portfolio-item-effect-2 .figure-ie .figcaption-ie,
+.portfolio-item-effect-2 .figure-ie a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.portfolio-item-effect-2 .figure-ie .figcaption-ie {
+	display:table;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.portfolio-item-effect-2 .figure-ie a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-2 .figure-ie h2 {
+	word-spacing: -0.15em;
+	color:#fff;
+	font-weight: 300;
+	display:table-cell;
+	vertical-align:middle;
+	line-height:1.7;
+}
+
+.portfolio-item-effect-2 .figure-ie h2 span {
+	font-weight: 800;
+}
+
+.portfolio-item-effect-2 .figure-ie h2,
+.portfolio-item-effect-2 .figure-ie p {
+	margin: 0;
+}
+
+.portfolio-item-effect-2 .figure-ie p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+.portfolio-item-effect-2 .figure-ie.effect-chico .port-img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-backface-visibility: hidden;
+}
+
+@media(min-width:992px){
+	.portfolio-item-effect-2 .figure-ie.effect-chico:hover .port-img {
+		opacity: 0.1;
+		-webkit-transform: scale(1.05);
+		-moz-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		transform: scale(1.05);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+	}
+}
+
+.portfolio-item-effect-2 .figure-ie.effect-chico .figcaption-ie {
+	padding: 3em;
+}
+
+.portfolio-item-effect-2 .figure-ie.effect-chico .figcaption-ie::before {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	content: '';
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.portfolio-item-effect-2 .figure-ie.effect-chico .figcaption-ie::before,
+.portfolio-item-effect-2 .figure-ie.effect-chico h2 {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-2 .figure-ie.effect-chico h2 {
+	font-size:13px;
+	letter-spacing:2px;
+	font-weight:700;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-2 .figure-ie.effect-chico h2 {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.portfolio-item-effect-2 .figure-ie.effect-chico:hover h2 {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+
+
+/* Common style */
+.portfolio-item-effect-3 .figure-ie {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	height: 230px;
+	text-align: center;
+	cursor: url(images/view-open.png) 35 35, default;
+}
+
+.portfolio-item-effect-3 .figure-ie .port-img {
+
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+@media(max-width:767px){
+	.portfolio-item-effect-3 .figure-ie .figcaption-ie {	
+		display:none;
+	}
+}
+
+@media(min-width:768px) and (max-width:991px){
+	.portfolio-item-effect-3 .figure-ie .figcaption-ie {	
+		display:none;
+	}
+}
+
+.portfolio-item-effect-3 .figure-ie .figcaption-ie {
+	padding: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.portfolio-item-effect-3 .figure-ie .figcaption-ie::before,
+.portfolio-item-effect-3 .figure-ie .figcaption-ie::after {
+	pointer-events: none;
+}
+
+.portfolio-item-effect-3 .figure-ie .figcaption-ie,
+.portfolio-item-effect-3 .figure-ie a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.portfolio-item-effect-3 .figure-ie a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-3 .figure-ie h2 {
+	word-spacing: -0.15em;
+	color:#fff;
+	font-weight: 300;
+}
+
+.portfolio-item-effect-3 .figure-ie h2 span {
+	font-weight: 800;
+}
+
+.portfolio-item-effect-3 .figure-ie h2,
+.portfolio-item-effect-3 .figure-ie p {
+	margin: 0;
+}
+
+.portfolio-item-effect-3 .figure-ie p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/* Individual effects */
+
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+.portfolio-item-effect-3 .figure-ie.effect-chico .port-img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
+	-o-transition: opacity 0.35s, -o-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-backface-visibility: hidden;
+}
+
+@media(min-width:992px){
+.portfolio-item-effect-3 .figure-ie.effect-chico:hover .port-img {
+	opacity: 0.1;
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+}
+
+.portfolio-item-effect-3 .figure-ie.effect-chico .figcaption-ie {
+	padding: 3em;
+}
+
+.portfolio-item-effect-3 .figure-ie.effect-chico .figcaption-ie::before {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	bottom: 20px;
+	left: 20px;
+	content: '';
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.portfolio-item-effect-3 .figure-ie.effect-chico .figcaption-ie::before,
+.portfolio-item-effect-3 .figure-ie.effect-chico h2 {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	-moz-transition: opacity 0.35s, -moz-transform 0.35s;
+	-ms-transition: opacity 0.35s, -ms-transform 0.35s;
+	-o-transition: opacity 0.35s, -o-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-3 .figure-ie.effect-chico h2 {
+	padding-top:60px;
+	font-size:13px;
+	letter-spacing:2px;
+	font-weight:700;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-3 .figure-ie.effect-chico h2 {
+	margin: 0 auto;
+	max-width: 200px;
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.portfolio-item-effect-3 .figure-ie.effect-chico:hover h2 {
+	opacity: 1;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+/* Common style */
+.portfolio-item-effect-4 .figure-ie {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	width: 100%;
+	cursor: url(images/view-open.png) 35 35, default;
+	background:none;
+}
+
+.portfolio-item-effect-4 .figure-ie .port-img {
+
+	position: relative;
+	display: block;
+	min-height: 100%;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+.portfolio-item-effect-4 .figure-ie .figcaption-ie {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.portfolio-item-effect-4 .figure-ie .figcaption-ie::before,
+.portfolio-item-effect-4 .figure-ie .figcaption-ie::after {
+	pointer-events: none;
+}
+
+.portfolio-item-effect-4 .figure-ie .figcaption-ie,
+.portfolio-item-effect-4 .figure-ie a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.portfolio-item-effect-4 .figure-ie a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.portfolio-item-effect-4 .figure-ie h2,
+.portfolio-item-effect-4 .figure-ie p {
+	margin: 0;
+	position:relative;
+	z-index:9999999;
+}
+
+
+/* Individual effects */
+
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+.portfolio-item-effect-4 .figure-ie.effect-chico .port-img {
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+	-webkit-backface-visibility: hidden;
+}
+
+@media(min-width:768px){
+.portfolio-item-effect-4 .figure-ie.effect-chico:hover .port-img {
+	opacity: 0.8;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico .figcaption-ie {
+	padding: 3em;
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico .figcaption-ie::before {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	content: '';
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity:0;
+	@include transition-fade(0.2s);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+@media(min-width:768px){
+.portfolio-item-effect-4 .figure-ie.effect-chico:hover .figcaption-ie::before {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	content: '';
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity:0.6;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico h2,
+.portfolio-item-effect-4 .figure-ie.effect-chico p {
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico h2{
+	padding-top:0;
+	font-size:13px;
+	letter-spacing:2px;
+	font-weight:700;
+	text-transform: uppercase;
+	line-height:1.6;
+	color:#666;
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico p {
+	padding-top:30px;
+	font-size:11px;
+	letter-spacing:1px;
+	font-weight:700;
+	text-transform: uppercase;
+	color:#999;
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico h2,
+.portfolio-item-effect-4 .figure-ie.effect-chico p {
+	margin: 0 auto;
+	max-width: 300px;
+	
+}
+
+.portfolio-item-effect-4 .figure-ie.effect-chico:hover h2,
+.portfolio-item-effect-4 .figure-ie.effect-chico:hover p {
+	opacity: 1;
+	color:#fff;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}

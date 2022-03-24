@@ -1,0 +1,78 @@
+div.formoids {
+	margin: 0;
+	padding: 0;
+}
+
+div.formoids-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+}
+
+div.formoids .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.formoids-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.formoids-mail-sent-ng {
+	border: 2px solid #ff0000;
+}
+
+div.formoids-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.formoids-validation-errors {
+	border: 2px solid #f7e700;
+}
+
+span.formoids-form-control-wrap {
+	position: relative;
+}
+
+span.formoids-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	display: block;
+}
+
+.use-floating-validation-tip span.formoids-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.formoids-list-item {
+	margin-left: 0.5em;
+}
+
+.formoids-display-none {
+	display: none;
+}
+
+div.formoids img.ajax-loader {
+	border: none;
+	vertical-align: middle;
+	margin-left: 4px;
+}
+
+div.formoids div.ajax-error {
+	display: none;
+}
+
+div.formoids .placeheld {
+	color: #888;
+}
